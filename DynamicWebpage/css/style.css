@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-left: 40%;
+    align-items: center;
+    position: relative;
+
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ebe8e2;
+}
+
+.Legend {
+    padding: 20px 10px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 40px 30px 40px;
+    align-items: center;
+    justify-content: start;
+}
+
+.search-zone {
+    width: 83%;
+    margin: auto;
+}
+
+.identifiers {
+    translate: -15% -105%;
+    width: 9%;
+}
+
+/* SVG Styles */
+.Red {
+    padding: 20px 0p;
+    display: grid;
+    grid-template-columns: 65px 20px 30px;
+    align-items: center;
+    justify-content: start;
+}
+
+.Yellow {
+    padding: 20px 1px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 65px 20px 30px;
+    align-items: center;
+    justify-content: start;
+}
+
+.Green {
+    padding: 20px 0p;
+    display: grid;
+    grid-template-columns: 65px 20px 30px;
+    align-items: center;
+    justify-content: start;
+}
+
+.circle1 {
+    fill: #b40000;
+}
+
+.circle2 {
+    fill: #f4b000;
+}
+
+
+.circle3 {
+    fill: #23a80a;
+}
+
+.ScavengerHunt {
+    translate: 350% -80%;
+    width: 9%;
+    padding: 10px 40p;
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px;
+    cursor: pointer;
+}
+
+#R1,
+#R2,
+#R3,
+#R4,
+#R5,
+#R6,
+#R7,
+#R8,
+#R9,
+#R10,
+#R11,
+#R12,
+#R13,
+#R14,
+#Y1,
+#Y2,
+#Y3,
+#Y4,
+#Y5,
+#G1 {
+    opacity: 0;
+}
